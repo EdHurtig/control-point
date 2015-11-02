@@ -60,20 +60,20 @@ body {
   padding: 30px;
 }
 
-.text-danger {
-  color: #F3302C !important; /*#a94442*/
+.text-dark-danger {
+  color: #F3302C; /*#a94442*/
 }
 
-.text-warning {
-  color: #FFA712 !important; /*8a6d3b*/
+.text-dark-warning {
+  color: #FFA712; /*8a6d3b*/
 }
 
-.text-success {
-  color: #46D049 !important; /*#3c763d*/
+.text-dark-success {
+  color: #46D049; /*#3c763d*/
 }
 
-.text-info {
-  color: #2FB9FD  !important; /*#31708f*/
+.text-dark-info {
+  color: #2FB9FD; /*#31708f*/
 }
 
 .navbar li.danger > a, .navbar li.danger > a:visited {
