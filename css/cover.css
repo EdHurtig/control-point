@@ -60,13 +60,28 @@ body {
   padding: 30px;
 }
 
+.text-danger {
+  color: #F3302C !important; /*#a94442*/
+}
+
+.text-warning {
+  color: #FFA712 !important; /*8a6d3b*/
+}
+
+.text-success {
+  color: #46D049 !important; /*#3c763d*/
+}
+
+.text-info {
+  color: #2FB9FD  !important; /*#31708f*/
+}
 
 .navbar li.danger > a, .navbar li.danger > a:visited {
-  background: #EE0000;
+  background: #EE0000 !important;
   color:#efefef;
 }
 .navbar li.danger > a:hover, .navbar li.danger > a:active {
-  background: #FA0000;
+  background: #FA0000 !important;
   color:#fff;
 }
 /*
