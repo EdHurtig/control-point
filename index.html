@@ -161,10 +161,12 @@
         })
         var last_id = 75754;
         function refreshImages() {
+          var new_id = (new Date()).getTime();
           $('img.auto-reload').each(function (i, e) {
             var $e = $(e)
-            $e.attr('src', $e.attr('src').replace("&bust" + last_id,"") + "&bust" + ++last_id)
+            $e.attr('src', $e.attr('src').replace("&bust" + last_id,"") + "&bust" + new_id)
           })
+          last_id = new_id;
         }
       })(jQuery)
     </script>
