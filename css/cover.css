@@ -112,8 +112,22 @@ body {
   color: #fff;
 }
 
+.nav-tabs {
+  border-bottom-width: 3px;
+}
+
 .nav-tabs li a {
-  color: #aaa;
+  background: #f0f0f0;
+  color:#222;
+  border-radius: 2px 2px 0 0;
+  border: 0;
+}
+
+.nav-tabs li a:hover {
+  background: #f9f9fd;
+  color: #333;
+  border: 1px solid #fff;
+
 }
 
 .tab-content {
