@@ -6,3 +6,4 @@ Control Point Dashboard Application
 
 * Clone this repo
 * open index.html in a web browser
+* Always believe in yourself
